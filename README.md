@@ -7,6 +7,7 @@ Serverless Image Recognition with AWS Lambda & Step Functions
 This project implements an event-driven serverless image recognition system using AWS Lambda, Step Functions, and Amazon Rekognition. The system continuously monitors an S3 bucket for new image uploads, processes them using Amazon Rekognition, and stores the results in another S3 bucket for further analysis.
 
 🛠️ Technologies Used
+
 ✅ AWS Lambda - Serverless computing for event-driven execution
 ✅ AWS Step Functions - Orchestration of image processing workflow
 ✅ Amazon S3 - Storage for source images and processed results
@@ -16,6 +17,7 @@ This project implements an event-driven serverless image recognition system usin
 ✅ AWS SNS (Optional) - Real-time notifications on process completion
 
 ✨ Features
+
 🚀 Fully Serverless - No need to manage servers, scales automatically
 📸 Automated Image Recognition - Detects objects, labels, and faces in images
 ⚡ Event-Driven Processing - Triggers on new image uploads to S3
@@ -25,9 +27,11 @@ This project implements an event-driven serverless image recognition system usin
 🔔 Real-time Notifications - (Optional) Sends alerts using SNS
 
 ## 📷 Architecture Diagram
+
 ![AWS CI/CD Architecture](https://files.oaiusercontent.com/file-Dtg87Q9iHbhKSRGJR7JF58?se=2025-03-26T17%3A49%3A13Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df7aad705-4975-433b-8da3-2aa0dd1a900d.webp&sig=QYepXnByLzxgVkiy3Fkm33u5dtpogCYgmVjUYLoL9sk%3D)
 
 ## Prerequisites
+
 - An **AWS account**
 - AWS **CLI installed** (optional)
 - AWS **IAM permissions** to create and manage S3, Lambda, Step Functions, and Rekognition
