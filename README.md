@@ -105,7 +105,7 @@ aws s3 cp test-image.jpg s3://image-upload-bucket/
 Feel free to fork, open issues, or submit PRs to improve this project!
 
 ### 📜 License
-This project is licensed under the **MIT License**.
+This project is licensed under the **Apache License**.
 
 🚀 Happy Coding!
 
