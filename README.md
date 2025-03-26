@@ -1,5 +1,7 @@
 # Serverless Image Recognition with AWS Lambda & Step Functions
 
+## 🚀 Project Overview
+
 Serverless Image Recognition with AWS Lambda & Step Functions
 
 This project implements an event-driven serverless image recognition system using AWS Lambda, Step Functions, and Amazon Rekognition. The system continuously monitors an S3 bucket for new image uploads, processes them using Amazon Rekognition, and stores the results in another S3 bucket for further analysis.
